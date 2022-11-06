@@ -141,6 +141,7 @@ label start:
         logan "He stole my phone and dropped it in the toilet!"
         teacher "I see you have your phone and it is working, is it not?"
         logan "Yes, but..."
+        play sound "bell.mp3"
         "The bell rings..." with vpunch
         teacher "Ooh! Lunchtime! You better hurry so you are not late!"
         hide teacher
@@ -173,7 +174,7 @@ label lunchroom_scene:
     logan "What the... Why is that photo on FlipFlop?!"
     logan "Tom...!"
 
-
+    # jump to next scene here
     return
 
 label lunchroom_scene_alt:
@@ -197,8 +198,10 @@ label lunchroom_scene_alt:
 
         "Logan punches Tom":
             logan "Take this you fart smelling bully!" with vpunch
+            # TODO
 
         "Logan cleans himself up and ignores Tom":
             logan "Grr...."
+            # TODO
 
     return
