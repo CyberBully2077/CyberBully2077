@@ -12,11 +12,14 @@ define sidekick2 = Character("Jay")
 
 transform midright:
     xalign 0.7
+﻿
+define e = Character("Eileen")
+image crawl = Movie(play = "CyberBullyCrawl.webm", loops = 1)
+define slowdissolve = Dissolve(0.5)
 
 transform midright2:
     xalign 0.8
 # The game starts here.
-
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
@@ -175,6 +178,18 @@ label lunchroom_scene:
     logan "Tom...!"
 
     # jump to next scene here
+    stop music
+    scene crawl
+    with slowdissolve
+    pause 18.0
+    window show
+
+    image black = "black.jpg"
+    scene bg black
+   
+    show black
+    with slowdissolve
+    
     return
 
 label lunchroom_scene_alt:
