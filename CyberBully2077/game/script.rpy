@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -12,12 +12,27 @@ define sidekick2 = Character("Jay")
 
 transform midright:
     xalign 0.7
+define e = Character("Eileen")
+image crawl = Movie(play = "CyberBullyCrawl.webm", loops = 1)
+define slowdissolve = Dissolve(0.5)
 
 transform midright2:
     xalign 0.8
-# The game starts here.
 
+
+# The game starts here.
 label start:
+    stop music
+    scene crawl
+    with slowdissolve
+    pause 18.0
+    window show
+
+    image black = "black.jpg"
+    scene bg black
+   
+    show black
+    with slowdissolve
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -175,6 +190,7 @@ label lunchroom_scene:
     logan "Tom...!"
 
     # jump to next scene here
+    
     return
 
 label lunchroom_scene_alt:
