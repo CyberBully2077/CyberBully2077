@@ -1,3 +1,46 @@
+#login authentication splashscreen code.
+
+image splash = "login.png"
+
+label splashscreen:
+    scene black
+    with Pause(1)
+
+    play sound "loginSound.mp3"
+
+    show splash #with dissolve
+    
+    $ count = 0 
+
+    label myLogin:
+    #with Pause(2)    
+    $ userDict = {"John": "Pword", "Jeremiah": "Pass", "Chris": "Ree", "Manny": "Github"}
+    $ loginName = renpy.input("What is your name?")
+    $ loginName = loginName.strip()
+    $ pword = renpy.input("Enter your password:", mask = "*")
+    $ pword = pword.strip()
+    
+    python:
+        for i in userDict.keys():
+            if loginName == i:
+                if pword == userDict.get(i):
+                    renpy.full_restart() #$ MainMenu(confirm=False)()
+                else:
+                    renpy.jump("failedLogin")
+                    
+    label failedLogin:
+        $ count += 1
+        $ remain = 3 - count
+        if count > 2:
+            jump invalid
+        "Invalid user name or password, contact administration for authorization."                   
+        "You have [remain] chances left!"
+        jump myLogin
+
+    label invalid:
+    python:
+        renpy.quit()
+
 # The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
