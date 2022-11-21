@@ -82,10 +82,10 @@ label splashscreen:
     menu signup_login:
         "Signup":
             jump mysignup
-        "login":
+        "Login":
             jump myLogin
     label myLogin:
-    $ email = renpy.input("Enter email: "+config.gamedir)
+    $ email = renpy.input("Enter email: ")
     $ pwd = renpy.input("Enter password: ")
     if not loginManager.login(email,pwd) :
         jump failedLogin
