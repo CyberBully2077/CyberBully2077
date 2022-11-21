@@ -139,7 +139,7 @@ CyberBully2077/log.txt
 *.txt
 .DS_Store
 CyberBully2077/game/options.rpyc
-CyberBully2077/game/gui.rpyc
+CyberBully2077/game/options.rpyc
 CyberBully2077/game/screens.rpyc
 CyberBully2077/game/script.rpyc
 CyberBully2077/game/tl/None/common.rpymc
