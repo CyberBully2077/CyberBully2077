@@ -136,8 +136,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    # this loads the custom dialogue box. default image is textbox.png
-    background Image("gui/custom_textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -208,10 +207,19 @@ style input:
 
 screen choice(items):
     style_prefix "choice"
-
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+    # set lgm flag in script.rpy to position the menu in the correct location, else use default
+    if lgm:
+        vbox:
+            xalign 0.5
+            ypos 550
+            yanchor 0.5
+            spacing gui.choice_spacing
+            for i in items:
+                textbutton i.caption action i.action
+    else:
+        vbox:
+            for i in items:
+                textbutton i.caption action i.action
 
 
 style choice_vbox is vbox
@@ -330,6 +338,7 @@ screen navigation():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
+            # textbutton _("Reset Password") action ShowMenu("splashscreen")
 
 
 style navigation_button is gui_button
@@ -1504,3 +1513,25 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+# default pwd = ""
+# default npwd = ""
+# default cnpwd = ""
+# screen splashscreen():
+#     lop = InputValue()
+#     window:
+#         has vbox
+
+#         text "Enter current password."
+#         input value
+#         input default "Joseph P. Blow, ESQ."
+#         text "Enter new password."
+#         input mask
+#         text "Confirm new password."
+#         input 
+#     frame:
+#         has vbox
+
+#         label "Display"
+#         textbutton "Fullscreen" action Preference("display", "fullscreen")
+#         textbutton "Window" action Preference("display", "window")
