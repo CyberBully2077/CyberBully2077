@@ -3,7 +3,7 @@ label after_school_scene:
 
     show bully at left
     "Tom pulls Logan's painting out of his bag."
-    bully taunting "Hey Logan..."
+    bully "Hey Logan..."
 
     show logan at right
     logan "Huh?"
@@ -55,7 +55,7 @@ label after_school_b:
 
     bully "I told you to stop!"
 
-    logan pain "Huff... huff..."
+    logan "Huff... huff..."
 
     bully "Stop hitting yourself, Lohgie."
     "Tom and his sidekicks take turns grabbing Logan's hands and making him punch himself."
