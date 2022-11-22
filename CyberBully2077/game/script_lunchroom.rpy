@@ -44,11 +44,15 @@ label lunchroom_scene_alt:
     menu lunchroom_options:
         "Choose an option"
 
-        "Logan punches Tom":
-            logan "Take this you fart smelling bully!" with vpunch
-            # TODO
+        "Shove Tom":
+            logan "What's your problem man!" with vpunch
+            bully "Wha... me?! Why did you push me?"
+            lunch_lady "Ok, that's enough you two!"
+            "Tom whispers into Logan's ear."
+            bully "You're dead. Just you wait."
+
 
         "Logan cleans himself up and ignores Tom":
             logan "Grr...."
-            # TODO
+    
     return    
