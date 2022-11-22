@@ -1,4 +1,4 @@
-# Python code for login/signup functionality
+﻿# Python code for login/signup functionality
 init python in loginManager:
     import hashlib
     import os
@@ -120,6 +120,8 @@ define students = Character("Students")
 define bully = Character("Hex")
 define sidekick1 = Character("Strix")
 define sidekick2 = Character("Brink")
+define lunchlady = Character("Doris")
+define art_teacher = Character("Ms. Vanstay")
 
 define slowdissolve = Dissolve(0.5)
 
@@ -150,6 +152,8 @@ label start:
     call gym_scene
     
     call bathroom_scene
+
+    call art_class_scene
     
     return
 
