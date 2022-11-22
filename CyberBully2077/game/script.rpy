@@ -1,6 +1,7 @@
 #login authentication splashscreen code.
 
 image splash = "login.png"
+
 # Python code for login/signup functionality
 init python in loginManager:
     import hashlib
@@ -68,22 +69,23 @@ init python in loginManager:
                 else:
                     return False
 
-
+default lgm = False
 label splashscreen:
     scene black
     with Pause(1)
 
     play sound "loginSound.mp3"
-
-    show splash #with dissolve
     
+    show splash #with dissolve
     $ count = 0 
     $ signup = False
+    $ lgm = True
     menu signup_login:
         "Signup":
             jump mysignup
         "Login":
             jump myLogin
+    $ lgm = False
     label myLogin:
     $ email = renpy.input("Enter email: ")
     $ pwd = renpy.input("Enter password: ")
