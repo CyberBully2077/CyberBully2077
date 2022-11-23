@@ -47,7 +47,7 @@ label lunchroom_scene_alt:
         "Shove Tom":
             logan "What's your problem man!" with vpunch
             bully "Wha... me?! Why did you push me?"
-            lunch_lady "Ok, that's enough you two!"
+            lunchlady "Ok, that's enough you two!"
             "Tom whispers into Logan's ear."
             bully "You're dead. Just you wait."
 

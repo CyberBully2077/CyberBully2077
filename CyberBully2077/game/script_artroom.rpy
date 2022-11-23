@@ -43,4 +43,9 @@ label art_class_scene:
     "Logan turns towards his desk and realizes that his painting is gone."
     logan "They got me again... Tartar sauce..."
 
+    if tell_no_one:
+        jump after_school_scene
+    else:
+        jump schoolyard_scene
+
     
