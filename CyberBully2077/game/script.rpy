@@ -121,7 +121,7 @@ define bully = Character("Hex")
 define sidekick1 = Character("Strix")
 define sidekick2 = Character("Brink")
 define lunchlady = Character("Doris")
-define art_teacher = Character("Ms. Vanstay")
+define art_teacher = Character("Ms. VanStay")
 
 define slowdissolve = Dissolve(0.5)
 
