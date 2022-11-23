@@ -211,7 +211,7 @@ screen choice(items):
     if lgm:
         vbox:
             xalign 0.5
-            ypos 650
+            ypos 470
             yanchor 0.5
             spacing gui.choice_spacing
             for i in items:
