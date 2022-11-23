@@ -211,7 +211,7 @@ screen choice(items):
     if lgm:
         vbox:
             xalign 0.5
-            ypos 550
+            ypos 650
             yanchor 0.5
             spacing gui.choice_spacing
             for i in items:
@@ -338,7 +338,8 @@ screen navigation():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
-            # textbutton _("Reset Password") action ShowMenu("splashscreen")
+            textbutton _("Reset Password") action Start("myreset")
+            textbutton _("Login Menu") action Start("login_screen")
 
 
 style navigation_button is gui_button
@@ -1518,6 +1519,7 @@ style slider_slider:
 # default npwd = ""
 # default cnpwd = ""
 # screen splashscreen():
+#     renpy.jump(splashscreen)
 #     lop = InputValue()
 #     window:
 #         has vbox
