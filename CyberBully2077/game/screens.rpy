@@ -338,7 +338,7 @@ screen navigation():
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
-            textbutton _("Reset Password") action Start("myreset")
+            #textbutton _("Reset Password") action Call("menu_reset")
             textbutton _("Login Menu") action Start("login_screen")
 
 

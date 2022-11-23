@@ -48,12 +48,7 @@ init python in loginManager:
         credpath = getcredpath()
         auth = pwd.encode()
         auth_hash = hashlib.md5(auth).hexdigest()
-        uDict ={}
-        with open(credpath+"\credentials.txt", "r") as f:
-            for line in f:
-                stored_email, stored_pwd = line.strip().split(":")
-                uDict.update({stored_email:stored_pwd})
-        f.close()
+        uDict = getUdict()
         #if email == stored_email and auth_hash == stored_pwd:
         for i in uDict.keys():
             if email == i:
@@ -68,13 +63,8 @@ init python in loginManager:
         if email == "Admin":
             return True
         credpath = getcredpath()
-        uDict ={}
-        with open(credpath+"\credentials.txt", "r") as f:
-            for line in f:
-                stored_email, stored_pwd = line.strip().split(":")
-                uDict.update({stored_email:stored_pwd})
-        f.close()
-        #if email == stored_email and auth_hash == stored_pwd:
+        uDict = getUdict()
+        #if email == stored_email:
         for i in uDict.keys():
             if email == i:
                     return True
@@ -158,7 +148,7 @@ label splashscreen:
         $ count += 1
         $ remain = 3 - count
         if count > 2:
-            jump login_screen
+            jump invalid
         "Invalid password"                   
         "You have [remain] chances left!"
         jump myLogin
@@ -198,6 +188,23 @@ label splashscreen:
         else:
             "Passwords are not the same try again"
         jump login_screen
+
+    # label menu_reset:
+    #     $ email = renpy.input("Enter email address: ")
+    #     if not loginManager.check_exist(email):
+    #         "Incorrect User name "
+    #         jump menu_reset
+    #     $ pwd = renpy.input("Enter current password: ")
+    #     if not loginManager.check_if_pwd(email,pwd):
+    #         "the current password is incorrect try again"
+    #         show main_menu
+    #     $ new_pwd = renpy.input("Enter new password: ")
+    #     if loginManager.reset_pwd(email,pwd,new_pwd):
+    #         "Successfully reset password"
+    #     else:
+    #         "Passwords are not the same try again"
+    #     jump login_screen
+
     $ count_two =0
     label invalid_pwd:
         $ count_two += 1
