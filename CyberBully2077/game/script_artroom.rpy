@@ -30,7 +30,7 @@ label art_class_scene:
     show logan at left
     show bully at right
 
-    "Tom sneaks up on Logan and steals his painting while he is distracted."
+    "Hex sneaks up on Logan and steals his painting while he is distracted."
     play sound "bell.mp3"
     "The bell rings..." with vpunch
 

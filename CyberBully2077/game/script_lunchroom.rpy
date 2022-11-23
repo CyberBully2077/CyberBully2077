@@ -20,7 +20,7 @@ label lunchroom_scene:
     hide sidekick2
     "Logan sits down at a table and checks his phone."
     logan "What the... Why is that photo on FlipFlop?!"
-    logan "Tom...!"
+    logan "Hex...!"
 
     # jump to next scene here
     return
@@ -32,7 +32,7 @@ label lunchroom_scene_alt:
     "Logan walks to a table holding his food tray."
 
     show bully sinister at right
-    "Tom see Logan and sticks his foot out in front of Logan without him noticing."
+    "Hex see Logan and sticks his foot out in front of Logan without him noticing."
 
     with vpunch
     logan "Ow!"
@@ -44,15 +44,15 @@ label lunchroom_scene_alt:
     menu lunchroom_options:
         "Choose an option"
 
-        "Shove Tom":
+        "Shove Hex":
             logan "What's your problem man!" with vpunch
             bully "Wha... me?! Why did you push me?"
             lunchlady "Ok, that's enough you two!"
-            "Tom whispers into Logan's ear."
+            "Hex whispers into Logan's ear."
             bully "You're dead. Just you wait."
 
 
-        "Logan cleans himself up and ignores Tom":
+        "Logan cleans himself up and ignores Hex":
             logan "Grr...."
     
     return    

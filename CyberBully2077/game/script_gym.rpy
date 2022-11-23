@@ -3,7 +3,7 @@ label gym_scene:
 
     show logan at left
     show bully at right
-    "Tom sits next to Logan and steals his unlocked phone."
+    "Hex sits next to Logan and steals his unlocked phone."
     "He copies all the content to his own phone."
 
     logan "I can't find my phone!"
