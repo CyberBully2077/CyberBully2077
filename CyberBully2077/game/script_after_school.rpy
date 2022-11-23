@@ -11,7 +11,7 @@ label after_school_scene:
     # TODO Play ripping paper sound effect
     "Hex rips Logan's painting before his very eyes." with vpunch
 
-    logan "Why are you doing this to me?!"
+    logan "Hey!! Why did you do that?!"
 
     "Hex shoves logan to the ground." with vpunch
 
@@ -25,6 +25,9 @@ label after_school_scene:
         
         "Run away":
             call after_school_b
+
+        "I don't know!":
+            call idk    
     return
 
 label after_school_a:
@@ -65,4 +68,16 @@ label after_school_b:
     sidekick2 "I'm streaming this to FlipFlop right now. This is great hahahah!"
 
     
+    return
+
+label idk:
+
+    python:
+        import random
+        num = random.random()
+        if num % 2 == 0:
+            renpy.jump('after_school_a')
+        else:
+            renpy.jump('after_school_b')
+
     return
