@@ -66,17 +66,24 @@ label after_school_b:
     hide bully
     show sidekick2
     sidekick2 "I'm streaming this to FlipFlop right now. This is great hahahah!"
-
     
+    return
+
+label bandana:
+    "Logan pops up on his feet \nslides behind Hex \nand pulls down his bandana!"    
+    logan "Take that!" with hpunch
+    "Logan runs home."
     return
 
 label idk:
 
     python:
         import random
-        num = random.random()
+        num = random.randint(1,10)
         if num % 2 == 0:
             renpy.jump('after_school_a')
+        elif (num == 5):
+            renpy.jump('bandana')
         else:
             renpy.jump('after_school_b')
 
