@@ -74,8 +74,8 @@ label idk:
 
     python:
         import random
-        num = random.random()
-        if num % 2 == 0:
+        num = random.randint(1,10)
+        if (num % 2 == 0):
             renpy.jump('after_school_a')
         else:
             renpy.jump('after_school_b')
