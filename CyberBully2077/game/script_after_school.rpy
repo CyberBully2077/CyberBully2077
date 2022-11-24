@@ -80,7 +80,8 @@ label idk:
     python:
         import random
         num = random.randint(1,10)
-        if num % 2 == 0:
+        
+        if (num % 2 == 0):
             renpy.jump('after_school_a')
         elif (num == 5):
             renpy.jump('bandana')
