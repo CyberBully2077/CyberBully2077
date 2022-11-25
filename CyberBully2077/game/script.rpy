@@ -33,6 +33,7 @@ transform center_image_zoom_out:
 
 # The game starts here.
 label start:
+
     call opening_crawl
 
     call homeroom_scene
@@ -42,6 +43,8 @@ label start:
     call bathroom_scene
 
     call art_class_scene
+
+    call resources_scene
     
     return
 

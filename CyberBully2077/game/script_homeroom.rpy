@@ -71,7 +71,7 @@ label homeroom_scene:
     hide homeroom7 with dissolve
 
     show ear flick1 with dissolve
-    "While Mrs. Smith isn't looking, Hex gets out of his seat \nand flicks Logan's ear. REEEEE" with vpunch
+    "While Mrs. Smith isn't looking, Hex gets out of his seat \nand flicks Logan's ear." with vpunch
     logan "....!!!!!!"
     pause(1)
     hide ear flick1 with dissolve
