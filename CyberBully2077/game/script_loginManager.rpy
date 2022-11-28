@@ -117,7 +117,7 @@ label splashscreen:
     scene black
     with Pause(1)
 
-    play sound "loginSound.mp3"
+    play sound "audio/sound_fx/misc/loginSound.mp3"
     label login_screen:
         show splash #with dissolve
         $ count = 0 

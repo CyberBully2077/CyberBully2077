@@ -30,12 +30,11 @@ label resources_scene:
     $ renpy.pause()
 
 menu resources_menu:
-     "Choose an action."
+    "Choose an action."
 
-     "Show Credits":
+    "Show Credits":
         hide resources
         $ renpy.hide_screen("vbox_test")
         call credit
-     "Quit":
-    
+    "Quit":
         return
