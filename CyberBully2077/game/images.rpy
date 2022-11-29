@@ -48,7 +48,12 @@ image logan_upset2 = "characters/logan/logan_upset2.png"
 image logan_upset3 = "characters/logan/logan_upset3.png"
 image logan_upset4 = "characters/logan/logan_upset4.png"
 image logan_upset5 = "characters/logan/logan_upset5.png"
+image logan_upset6 = "characters/logan/logan_upset6.png"
 image logan_tray = "characters/logan/logan_tray.png"
+image logan_running = "characters/logan/logan_running.png"
+image logan_spraycan = "characters/logan/logan_spraycan.png"
+image logan_ground = "characters/logan/logan_ground.png"
+image logan_lunge = "characters/logan/logan_lunge.png"
 
 # hex
 image bully_bandana1 = "characters/hex/bully_bandana1.png"
@@ -91,6 +96,8 @@ image bully_smartphone4 = "characters/hex/bully_smartphone4.png"
 image bully_talking1 = "characters/hex/bully_talking1.png"
 image bully_talking2 = "characters/hex/bully_talking2.png"
 image bully_talking3 = "characters/hex/bully_talking3.png"
+image bully_spraycan = "characters/hex/bully_spraycan.png"
+image bully_ground = "characters/hex/bully_ground.png"
 
 # henchmen
 image henchman1_normal1 = "characters/henchman1/henchman1_normal1.png"
@@ -100,6 +107,7 @@ image henchman1_sitting1 = "characters/henchman1/henchman1_sitting1.png"
 image henchman1_sitting2 = "characters/henchman1/henchman1_sitting2.png"
 image henchman1_sitting3 = "characters/henchman1/henchman1_sitting3.png"
 image henchman1_laughing1 = "characters/henchman1/henchman1_laughing1.png"
+image henchman1_smartphone = "characters/henchman1/henchman1_smartphone.png"
 image henchman2_normal1= "characters/henchman2/henchman2_normal1.png"
 image henchman2_normal2 = "characters/henchman2/henchman2_normal2.png"
 image henchman2_normal3 = "characters/henchman2/henchman2_normal3.png"
@@ -229,3 +237,61 @@ image art7 = "scenes/art/art7.jpg"
 image art8 = "scenes/art/art8.jpg"
 image logan_painting = "scenes/art/logan_painting.jpg"
 image logan_painting2 = "scenes/art/logan_painting2.jpg"
+
+# schoolyard main
+image schoolyard_splash = "scenes/schoolyard/schoolyard_splash.jpg"
+image ripping_painting = "scenes/schoolyard/ripping_painting.jpg"
+image schoolyard1 = "scenes/schoolyard/schoolyard1.jpg"
+image schoolyard2 = "scenes/schoolyard/schoolyard2.jpg"
+image schoolyard3 = "scenes/schoolyard/schoolyard3.jpg"
+image schoolyard4 = "scenes/schoolyard/schoolyard4.jpg"
+image schoolyard5 = "scenes/schoolyard/schoolyard5.jpg"
+image schoolyard6 = "scenes/schoolyard/schoolyard6.jpg"
+
+# schoolyard option a
+image schoolyard7 = "scenes/schoolyard/option_a/schoolyard7.jpg"
+image schoolyard8 = "scenes/schoolyard/option_a/schoolyard8.jpg"
+image schoolyard9 = "scenes/schoolyard/option_a/schoolyard9.jpg"
+image schoolyard10 = "scenes/schoolyard/option_a/schoolyard10.jpg"
+
+# schoolyard option b
+image schoolyard11 = "scenes/schoolyard/option_b/schoolyard11.jpg"
+image schoolyard12 = "scenes/schoolyard/option_b/schoolyard12.jpg"
+image schoolyard13 = "scenes/schoolyard/option_b/schoolyard13.jpg"
+image schoolyard14 = "scenes/schoolyard/option_b/schoolyard14.jpg"
+
+# schoolyard special
+image schoolyard15 = "scenes/schoolyard/option_special/schoolyard15.jpg"
+image schoolyard16 = "scenes/schoolyard/option_special/schoolyard16.jpg"
+image schoolyard17 = "scenes/schoolyard/option_special/schoolyard17.jpg"
+image schoolyard18 = "scenes/schoolyard/option_special/schoolyard18.jpg"
+
+# after school
+image after_school_splash = "scenes/after_school/after_school_splash.jpg"
+image after_school1 = "scenes/after_school/after_school1.jpg"
+image after_school2 = "scenes/after_school/after_school2.jpg"
+image after_school3 = "scenes/after_school/after_school3.jpg"
+image after_school4 = "scenes/after_school/after_school4.jpg"
+image after_school5 = "scenes/after_school/after_school5.jpg"
+image after_school6 = "scenes/after_school/after_school6.jpg"
+image after_school7 = "scenes/after_school/after_school7.jpg"
+
+# after school option a
+image after_school8 = "scenes/after_school/after_school_a/after_school8.jpg"
+image after_school9 = "scenes/after_school/after_school_a/after_school9.jpg"
+image after_school10 = "scenes/after_school/after_school_a/after_school10.jpg"
+image after_school11 = "scenes/after_school/after_school_a/after_school11.jpg"
+image after_school12 = "scenes/after_school/after_school_a/after_school12.jpg"
+
+# after school obtion b
+image after_school13 = "scenes/after_school/after_school_b/after_school13.jpg"
+image after_school14 = "scenes/after_school/after_school_b/after_school14.jpg"
+image after_school15 = "scenes/after_school/after_school_b/after_school15.jpg"
+image after_school16 = "scenes/after_school/after_school_b/after_school16.jpg"
+image after_school17 = "scenes/after_school/after_school_b/after_school17.jpg"
+
+# after school special
+image after_school18 = "scenes/after_school/after_school_special/after_school18.jpg"
+image after_school19 = "scenes/after_school/after_school_special/after_school19.jpg"
+image after_school20 = "scenes/after_school/after_school_special/after_school20.jpg"
+image after_school21 = "scenes/after_school/after_school_special/after_school21.jpg"
