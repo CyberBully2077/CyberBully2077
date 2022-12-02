@@ -69,7 +69,7 @@ label homeroom_scene:
     show homeroom6 with dissolve:
         center_image_zoom_out
     bully "Hey class noob. Nice haircut."
-    "Mrs Smith turns her attention to the blackboard"
+    "Mrs Smith turns her attention to the blackboard."
     hide homeroom6 with dissolve
 
     show ear_flick1 with dissolve:

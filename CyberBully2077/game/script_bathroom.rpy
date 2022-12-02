@@ -41,7 +41,7 @@ label bathroom_scene:
         char_zoom_right
     show logan_angry1 with dissolve:
         char_zoom_left
-    "Hex holds up the phone and shows Logan a screen of Logan's\npersonal pictures"
+    "Hex holds up the phone and shows Logan a screen of Logan's\npersonal pictures."
     show phone_and_hand with fade:
         kenburns2
     bully "Dork!"
@@ -90,7 +90,7 @@ label bathroom_scene:
         jump lunchroom_scene
     else:
 
-        "Logan storms out of the bathroom and runs to homeroom"
+        "Logan storms out of the bathroom and runs to homeroom."
         scene homeroom
         show black
         with fade
