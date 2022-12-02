@@ -21,7 +21,7 @@ label after_school_scene:
     
     show logan_talking2:
         char_zoom_right
-    logan "What do you want, Lex?"
+    logan "What do you want, Hex?"
     
     hide after_school3
     hide logan_talking2

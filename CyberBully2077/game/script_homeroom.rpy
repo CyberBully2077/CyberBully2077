@@ -6,6 +6,8 @@ label homeroom_scene:
     show homeroom1 with dissolve:
         kenburns1
     pause(3)
+    play sound "audio/sound_fx/misc/bell.mp3"
+    "The bell rings..." with vpunch
     teacher "Ok class, that was the bell."
     show homeroom1 with dissolve:
         center_image_zoom_out

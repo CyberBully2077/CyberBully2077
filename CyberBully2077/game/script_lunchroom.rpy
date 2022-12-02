@@ -137,5 +137,5 @@ label lunchroom_scene_alt:
             show cafeteria9:
                 center_image_zoom_out
             logan "Grr.... Why did you do that?!"
-            "Logan finds a spot in the back of the cafeteria and sits alone until his next class."
+            "Logan finds a spot in the back of the cafeteria and sits alone until his \nnext class."
     return    
