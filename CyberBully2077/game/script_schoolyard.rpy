@@ -11,7 +11,7 @@ bully "Hey Logan..."
 
 hide schoolyard1
 show schoolyard2 with fade
-"Logan is sitting, looks up" 
+"Logan is sitting. He looks up." 
 logan "Huh?"
 
 bully "Hehe"
@@ -19,7 +19,7 @@ hide schoolyard2
 show ripping_painting:
     kenburns2
 with fade
-"Hex noisely rips Logan's artwork" with hpunch
+"Hex noisily rips Logan's artwork." with hpunch
 
 hide ripping_painting
 show schoolyard3:
@@ -28,19 +28,19 @@ show logan_angry1 zorder 1:
     char_zoom_left
 with fade
 logan "What the hell!!"
-"Logan shouts and stands up"
+"Logan shouts and stands up."
 
 hide schoolyard3
 hide logan_angry1
 show schoolyard4
 with fade
 
-bully "oops"
+bully "Oops!"
 hide schoolyard4
 show schoolyard5
 with fade
 
-"Hex shoves Logan to the ground" with vpunch
+"Hex shoves Logan to the ground." with vpunch
 hide schoolyard5
 show schoolyard6
 with fade
@@ -80,9 +80,9 @@ label schoolyard_a:
     show schoolyard9:
         center_image_zoom_out
     with fade
-    bully "Haha"
-    "Hex holds him down with his foot"
-    bully "Say your sorry Loogie!"
+    bully "Haha!"
+    "Hex holds him down with his foot."
+    bully "Say you're sorry Loogie!"
     hide schoolyard9
     hide logan_upset6
     show schoolyard10:
@@ -91,7 +91,7 @@ label schoolyard_a:
     
     show henchman2_normal1:
         char_zoom_right
-    sidekick2 "Nice one Hex, you get that Strix?"
+    sidekick2 "Nice one Hex. You get that Strix?"
 
     show henchman1_smartphone:
         char_zoom_left
@@ -122,7 +122,7 @@ label schoolyard_b:
     show logan_sitting6:
         char_zoom_left
     with fade
-    logan "erp..."
+    logan "Erp..."
     
     hide bully_shrugging2
     hide logan_sitting6
@@ -163,7 +163,7 @@ label nannite_swarm:
         char_zoom_left
     with fade
     logan "Eat this!"
-    "Logan sprays Hex with immobilizing nannites"
+    "Logan sprays Hex with immobilizing nannites."
 
     show bully_spraycan:
         char_zoom_right
@@ -177,12 +177,12 @@ label nannite_swarm:
     hide schoolyard17
     show bully_ground:
         kenburns2
-    "Hex falls to the ground stiff" with vpunch
+    "Hex falls to the ground stiff." with vpunch
     
     hide bully_ground
     show schoolyard18
     with fade
-    "Strix and Brink try to catch Hex and they all end up in a pile" with hpunch
+    "Strix and Brink try to catch Hex and they all end up in a pile." with hpunch
     hide schoolyard18
     show logan_running:
         kenburns2

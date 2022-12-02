@@ -16,7 +16,7 @@ label lunchroom_scene:
 
     show group3 with vpunch:
         group_zoom_right
-    "The students start laughing and pointing at Logan" with vpunch
+    "The students start laughing and pointing at Logan." with vpunch
     hide cafeteria2
     hide group3
     with fade
