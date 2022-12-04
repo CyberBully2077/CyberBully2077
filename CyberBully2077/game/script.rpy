@@ -70,7 +70,7 @@ transform kenburns2:
 # The game starts here.
 label start:
 
-    #call opening_crawl
+    call opening_crawl
 
     call homeroom_scene
 
