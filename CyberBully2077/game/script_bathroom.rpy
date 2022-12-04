@@ -1,5 +1,6 @@
 label bathroom_scene:
     scene black with fade
+    play sound "audio/sound_fx/bathroom/bath start.mp3"
     show bathroom_splash with fade
     pause(3)
     hide bathroom_splash with fade
@@ -58,6 +59,7 @@ label bathroom_scene:
     show bathroom3 with dissolve
     bully "Oops!"
     hide bathroom3 with dissolve
+    play sound "audio/sound_fx/bathroom/drop.mp3"
     "Hex drops Logan's phone into the toilet and runs out laughing with\nhis sidekicks." with vpunch
     show bathroom4 with dissolve
     bully "HAHAHU HU HEE HEE!"

@@ -1,5 +1,6 @@
 label lunchroom_scene:
     scene black with dissolve
+    play sound "audio/sound_fx/cafeteria/cafe start.mp3"
     show cafeteria_splash with dissolve
     "Logan heads to the cafeteria for lunch."
     hide cafeteria_splash
@@ -16,6 +17,7 @@ label lunchroom_scene:
 
     show group3 with vpunch:
         group_zoom_right
+    play sound "audio/sound_fx/cafeteria/laugh.mp3"    
     "The students start laughing and pointing at Logan." with vpunch
     hide cafeteria2
     hide group3
