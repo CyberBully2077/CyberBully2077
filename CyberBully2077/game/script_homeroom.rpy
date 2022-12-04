@@ -1,4 +1,5 @@
 label homeroom_scene:
+    play sound "audio/sound_fx/homeroom/start.mp3"
     scene homeroom_splash with dissolve
     "Logan finds his homeroom class and waits for the bell to ring...."
     
@@ -85,6 +86,7 @@ label homeroom_scene:
 
     show ear_flick2 with dissolve:
         center_image_zoom_out
+    play sound "audio/sound_fx/homeroom/earflick.mp3"    
     "While Mrs. Smith isn't looking, Hex gets out of his seat \nand flicks Logan's ear." with vpunch
     logan "....!!!!!!"
     pause(1)

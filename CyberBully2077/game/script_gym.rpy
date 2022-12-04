@@ -1,6 +1,7 @@
 label gym_scene:
     scene black with dissolve
-    show gym_splash with fade
+    play sound "audio/sound_fx/gym/gym beep.mp3"
+    show gym_splash with fade    
     "After homeroom, Logan made his way through the hallways of Neon Park \nMiddle School."
 
     hide gym_splash with dissolve
@@ -21,6 +22,7 @@ label gym_scene:
 
     show gym5 with dissolve
     "Hex walks into the gynamnasium and sits down behind Logan\nwhen he isn't looking."
+    play sound "audio/sound_fx/gym/swipe.mp3"
     "Hex reaches into Logan's pocket and steals his unlocked phone."
     "Hex copies all the content to his own phone and then hides it from view."
 
