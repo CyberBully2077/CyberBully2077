@@ -19,6 +19,7 @@ hide schoolyard2
 show ripping_painting:
     kenburns2
 with fade
+play sound "audio/sound_fx/misc/paperrip.mp3" 
 "Hex noisily rips Logan's artwork." with hpunch
 
 hide ripping_painting
@@ -163,6 +164,7 @@ label nannite_swarm:
         char_zoom_left
     with fade
     logan "Eat this!"
+    play sound "audio/sound_fx/misc/spray.mp3" 
     "Logan sprays Hex with immobilizing nannites."
 
     show bully_spraycan:
