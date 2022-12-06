@@ -1,7 +1,4 @@
-﻿# Python code for login/signup functionality
-# call splashscreen
-
-# Declare characters used by this game. The color argument colorizes the
+﻿# Declare characters used by this game. The color argument colorizes the
 # name of the character.
 define logan = Character("Logan Peabody")
 define art_teacher = Character("Mr. VanStay")
@@ -54,6 +51,7 @@ transform group_zoom_left:
     
 define slowdissolve = Dissolve(0.5)
 
+# Ken Burns effect
 transform kenburns1:
     subpixel True
     truecenter
@@ -66,12 +64,8 @@ transform kenburns2:
     zoom .75 #adjust as required for initial zoom level 
     ease 3.0 zoom .25
 
-
 # The game starts here.
 label start:
-
-    call opening_crawl
-
     call homeroom_scene
 
     call gym_scene
@@ -82,14 +76,4 @@ label start:
 
     call resources_scene
     
-    return
-
-label opening_crawl:
-    scene crawl
-    with slowdissolve
-    pause 18.0
-    
-    scene bg black
-    show black
-    with slowdissolve
     return

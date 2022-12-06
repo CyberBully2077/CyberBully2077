@@ -1,4 +1,11 @@
 label homeroom_scene:
+    play music "audio/music/CyberBullyMain.mp3"
+    scene crawl
+    with slowdissolve
+    pause 18.0
+    
+    show black
+    with slowdissolve
     play sound "audio/sound_fx/homeroom/start.mp3"
     scene homeroom_splash with dissolve
     "Logan finds his homeroom class and waits for the bell to ring...."
