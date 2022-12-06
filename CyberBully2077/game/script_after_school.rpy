@@ -4,6 +4,7 @@ label after_school_scene:
     
     hide after_school_splash
     show black
+    play sound "audio/sound_fx/misc/busbrakes.mp3"
     show after_school1
     with fade
     "The bus pulls into Logan's stop. Hex and his sidekicks follow Logan\nas he leaves the bus."
@@ -26,10 +27,10 @@ label after_school_scene:
     hide after_school3
     hide logan_talking2
     show ripping_painting:
-        kenburns1
+        kenburns1      
     with fade
-    
-    # TODO Play ripping paper sound effect
+    play sound "audio/sound_fx/misc/paperrip.mp3" 
+   
     "Hex rips Logan's painting before his very eyes." with vpunch
 
     hide ripping_painting
